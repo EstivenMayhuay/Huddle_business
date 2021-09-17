@@ -346,7 +346,16 @@ body {
   }
 
   .btnOutline {
+    /*outline: 2px solid blue;*/
+    font-size: var(--BUTTON);
+    padding: 10px 20px;
     right: 32px;
+  }
+
+  .btnOutline:hover {
+    background: var(--pink);
+    color: var(--very-pale-blue);
+    border-color: var(--pink);
   }
 
   /* Main */
@@ -355,9 +364,9 @@ body {
   }
 
   /* Home */
-
   .home__img {
-    width: 80%;
+    width: 70%;
+    height: 460px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -365,6 +374,11 @@ body {
   .home__info {
     flex-flow: row nowrap;
     gap: calc(16px * 10);
+  }
+
+  .btnPrimary {
+    /*outline: 2px solid blue;*/
+    font-size: var(--BUTTON);
   }
 
   /* Grow Together */
